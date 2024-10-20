@@ -22,7 +22,7 @@ with open('docs/index.html', 'w+') as f:
 </head>
 <body>
 """)
-    for year in [str(i) for i in range(2007, 2022)]:
+    for year in [str(i) for i in range(2007, 2023)]:
         f.write(f'<h1 class="year">{year}</h1>\n')
         for month in possible_links[year]:
             f.write(f'<h2 class="month">{month}</h2>\n')
