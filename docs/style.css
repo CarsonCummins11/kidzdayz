@@ -1,7 +1,6 @@
 body{
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 1em;
     background-color: #f0f0f0;
 }
 
@@ -22,7 +21,10 @@ body{
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    gap: 1em;
+    border-top: 2px solid #b0b0b0;
+    padding-top: 1em;
 }
 .image{
-    max-width: 30vw;
+    max-width: max(30vw,400px);
 }
